@@ -44,12 +44,6 @@ Selected based on:
 
 ---
 
-## 🎥 Video Demo
-[Insert video link here]  
-Or check `video/link.txt` or `demo_video.mp4`
-
----
-
 ## 🧠 Developed For
 **Day 11 — AI/ML Hackathon**  
 IIITDM Kancheepuram, July 2025  
