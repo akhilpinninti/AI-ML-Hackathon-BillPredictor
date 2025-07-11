@@ -1,0 +1,45 @@
+
+==============================
+🔍 Model Summary: Electricity Bill Prediction
+==============================
+
+📌 Objective:
+To build a supervised machine learning model that predicts the monthly electricity bill based on appliance usage, tariff rate, usage hours, and location-specific details like city and energy provider.
+
+📊 Dataset Overview:
+- Features: Appliance counts, Monthly usage hours, Tariff Rate, City, Company
+- Target: ElectricityBill
+- Categorical features encoded using Label Encoding
+- Numerical features scaled using StandardScaler
+- Data split: 80% training, 20% testing
+
+==============================
+📈 Models Evaluated:
+==============================
+1. Linear Regression
+2. Ridge Regression
+3. Lasso Regression
+4. Decision Tree Regressor
+5. Random Forest Regressor ✅
+6. Gradient Boosting Regressor
+7. Support Vector Regressor (SVR)
+
+==============================
+🏆 Best Performing Model:
+==============================
+Model: Random Forest Regressor  
+Reason: Achieved the lowest RMSE and highest R² score on the test data.
+
+✅ RMSE (Root Mean Squared Error):  5.3276  
+✅ R² Score:                        1.0000
+
+==============================
+📌 Remarks:
+==============================
+- Random Forest captured non-linear relationships and feature interactions better than linear models.
+- Tree-based models handled categorical encodings effectively without overfitting.
+- SVR performed poorly due to sensitivity to feature scaling and smaller dataset size.
+
+==============================
+
+Visualizations and interpretation are shown before and after modeling.
